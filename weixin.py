@@ -45,7 +45,7 @@ if __name__ == '__main__':
     user = str(sys.argv[1])     #zabbix传过来的第一个参数
     content = str(sys.argv[3])  #zabbix传过来的第三个参数
  
-    corpid =  'wxec0879f3c9fa1342'   #CorpID是企业号的标识
-    corpsecret = 'I2AFaK8nsV9yc8ttYO8jz5SHf5CS7_oEQ9GhJI-ABqfLasuF6EBc_WxXWSVPzS6V' 
+    corpid =  'XXXXXXXXXXXXXXXXXX'   #CorpID是企业号的标识
+    corpsecret ='XXXXXXXXXXXXXXXXXXXX' 
     accesstoken = gettoken(corpid,corpsecret)
     senddata(accesstoken,user,content)
