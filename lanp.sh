@@ -63,7 +63,7 @@ cp -r apr-util-1.5.4 httpd-2.4.20/srclib/apr-util
 cd httpd-2.4.20
 ./configure \
 --prefix=/usr/local/apache \
---with-mpm=worker \
+--enable-mpms-shared=all \
 --with-included-apr \
 --enable-so \
 --enable-deflate=shared \
